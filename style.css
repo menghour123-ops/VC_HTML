@@ -9,17 +9,6 @@ header{
     margin-left: 30px ;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-/* .button {
-    background-color: #0897eb;
-    border: none; 
-    outline: none;
-    color: rgb(241, 239, 239);
-    padding: 20px 40px;
-    padding-left: 6%;
-    padding-right: 6%;
-    margin-left: 41%;
-    cursor: pointer;
-    border-radius: 10px; */
 
 .button {
     height: 50px;
@@ -89,8 +78,9 @@ header{
     margin-left: 60px;
   
   }
-  
- 
+a{
+      padding: 10px;
+  }
 
 .contain{
       display: flex; 
@@ -125,6 +115,7 @@ header{
 ul{
     list-style: none;
 }
+
 
     
 
