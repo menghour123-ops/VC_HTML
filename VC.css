@@ -1,0 +1,144 @@
+header{
+    background-color:  rgb(137, 206, 182);
+    padding-bottom: 10px;
+    
+
+}
+.subject{
+    font-size: 15px;
+    margin-left: 30px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* .button {
+    background-color: #0897eb;
+    border: none; 
+    outline: none;
+    color: rgb(241, 239, 239);
+    padding: 20px 40px;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-left: 41%;
+    cursor: pointer;
+    border-radius: 10px; */
+
+.button {
+    height: 50px;
+    width: 150px;
+    background-color:rgb(7, 68, 233);
+    border-bottom-width: 2px;
+    border-radius: 10px;
+    margin-left: 600px;
+  }
+.button:hover {
+    background-color: rgb(5, 19, 65);
+}
+.ask{
+    text-align: center;
+}
+.and{
+    text-align: center;
+    margin-right: 95%;
+}
+.mid{
+    text-align: center;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.small{
+    font-size: 7px;
+    text-align: center;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: rgb(137, 206, 182);
+    margin-left: 0%;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    
+    
+    
+  }
+.nav a {
+    float: right;
+    display: block;
+    color: hsl(0, 0%, 95%);
+    padding: 8px 8px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+.logo img{
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    margin-left: 47px;
+
+}
+
+
+
+.nav a:hover {
+    background-color: rgb(124, 122, 122);
+    color: black;
+    border-radius: 50px;
+  }
+  h1{
+    font-size: 18px;
+    margin-left: 60px;
+  
+  }
+  
+ 
+
+.contain{
+      display: flex; 
+  }
+
+.about{
+      width: 60%;
+      height: 30vh;
+      background-color:rgb(245, 240, 240);
+      margin-top: 20px;
+      text-align:center;
+     
+      
+
+}
+
+.basic{
+    width: 40%;
+    height: 30vh;
+    background-color:rgb(255, 255, 255);
+    margin-top:20px;
+
+    
+}
+.skill{
+    width: 100%;
+    height:40vh ;
+    background-color: rgb(235, 41, 41);
+    margin-top: 20px;
+
+}
+ul{
+    list-style: none;
+}
+
+    
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(37, 104, 63)
+}
+.footer{
+    background-color: darkblue;
+    width: 100%;
+    height:40vh ;
+    margin-bottom: 5px;
+
+}
