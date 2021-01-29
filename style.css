@@ -11,11 +11,11 @@ header{
     font-size: 15px;
     margin-left: 30px ;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     
 }
 .logo h1{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .button {
     height: 50px;
@@ -23,15 +23,19 @@ header{
     background-color:rgb(36, 93, 248);
     border-bottom-width: 1px;
     border-radius: 10px;
-    margin-left: 600px;
-    cursor: pointer;
-  }
+    margin-left: 44.5%;
+    cursor: pointer;  
+    border: none;
+}
+button a {
+    color: white;
+}
 .button:hover {
-    background-color: rgba(241, 241, 255, 0.712);
+    background-color: rgba(22, 22, 24, 0.712);
 }
 .ask{
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .and{
     text-align: center;
@@ -42,25 +46,25 @@ header{
     text-align: center;
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
+    color: rgb(0, 0, 0);
 
 }
 .small{
     font-size: 12px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 .nav {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
-    background-image: url("back.jpg");  
+    background-color: rgba(0, 0, 0, 0.733);
     position: fixed;
-    left: 76.3%;
+    left: 73%;
     float: right;
+    font-weight: bold;
     
     
     
@@ -69,14 +73,14 @@ header{
 .nav a {
     float: right;
     display: block;
-    color: hsl(0, 33%, 98%);
+    color: hsl(0, 0%, 100%);
     padding: 8px 8px;
     text-decoration: none;
     font-size: 15px;
   }
 .nav a:hover {
-    background-color:#fd9870;
-    color: rgb(26, 2, 2);
+    background-color:#f8703aca;
+    color: rgb(0, 0, 0);
     border-radius: 10px;
 
   }
@@ -90,7 +94,6 @@ header{
     color:#d3cfcf;
     
 }
-
 h1{
     font-size: 15px;
     margin-left: 60px;
@@ -99,15 +102,11 @@ h1{
 i{
     padding: 10px;
   }
-
 .contain{
       display: flex; 
-      
-      
   }
-
 .about{
-      width: 45%;
+      width: 50%;
       height: 35vh;
       padding-right: 10px;
       background-color:#fdffbcc0;
@@ -125,11 +124,10 @@ i{
 .about:hover{
     background:none;
     
-    color: white;
+    color:rgb(153, 8, 8);
 }
-
 .basic{
-    width: 45%;
+    width: 50%;
     height: 35vh;
     background-color:#fdffbce0;
     margin-left:80px;
@@ -144,9 +142,8 @@ i{
 .basic:hover{
     background:none;
     
-    color: white;
+    color: rgb(153, 8, 8);
 }
-
 .educa{
     display: flex;
     
@@ -162,7 +159,6 @@ i{
     
     
 }
-
 .image img{
     border-radius: 20px;
     width: 45%;
@@ -175,7 +171,6 @@ i{
 .page1 :hover{
     transform: scale(1.1);
 }
-
 .page2{
     width: 49%;
     height: 40vh;
@@ -197,13 +192,12 @@ i{
 .page2  :hover{
     transform: scale(1.1);
 }
-
 ul{
     list-style: none;
 }
 .Edu{
     width: 100%;
-    height:8vh ;
+    height:10vh ;
     background-color:#ffeebbda;
     margin-top: 5px;
     font-size: 40px;
@@ -218,7 +212,6 @@ ul{
     margin-top: 1px;
     font-size: 20px;
 }
-
 .experience{
     width: 83%;
     height:35vh ;
@@ -258,7 +251,6 @@ ul{
     margin-left: 15px;
     align-items: center;
 }
-
 .second{
     width: 48%;
     height:35vh ;
@@ -283,25 +275,24 @@ ul{
     background-color:#ffeebbc5;
     margin-top: 10px;
     font-size: 15px;
-    border-radius:  0px 100px 100px 0px;
-    transition: width 1s;
-    color: hsl(31, 89%, 39%);
+    border-radius:  100px 100px 100px 100px;
+    transition: margin-left 4s;
+    color: hsla(0, 0%, 0%, 0.719);
     display: flex;
     align-items: center;
     font-family: fantasy;
 }
 .text1:hover{
-    width: 40%;
-    background-color:rgba(255, 255, 255, 0.657);
-    color: rgb(109, 2, 93);
+    margin-left: 40%;
+    background-color:rgba(195, 56, 56, 0.459);
+    color: rgb(235, 235, 235);
 }
-
 .text1 p{
-    margin-left: 10%;
+    margin-left: 16%;
     font-size: 25px;
     font-family:fantasy;
+   
 }
-
 .text2{
     width: 100%;
     height:5vh ;
@@ -313,16 +304,13 @@ ul{
     align-items: center;
     font-family: fantasy;
     
+    
 }
-
 .icon1{
     font-size: 40px;
   
     
 }
-
-
-
 .contact{
     background-color:#ffc1b6cc;
     width: 100%;
@@ -334,25 +322,13 @@ ul{
    
     
 }
-
 body{
     margin: 0px;
     padding: 0px;
-    background-color: rgb(139, 247, 193);
     background-position:center;
-    background-image: url(pic.jpg);
-
-    
-
+    background-color: rgba(209, 209, 209, 0.089);
     position: 10%;
-}
-.footer{
-    background-color:#ce3e05;
-    width: 100%;
-    height:40vh ;
-    margin-bottom: 10px;
-    margin-top: 10px;
-
+    overflow-x: hidden;
 }
 .about p{
     margin-left: 10px;
@@ -383,7 +359,6 @@ body{
     font-size: 14px;
     
 }
-
 .radio{
     margin-left: 10px;
     padding: 5px;
@@ -440,19 +415,11 @@ h3{
     text-decoration: underline;
 
 }
-
-
-
-
-
-
-
-
 footer{
     width: 100%;
     height: 30vh;
     margin-top: 2px;
-    background-color: #200906d5;
+    background-color: #200906f8;
     border-radius: 10px;
     
 }
@@ -491,7 +458,3 @@ footer p{
     background-color: none;
     color: rgb(218, 0, 0);
 }
-
-
-
-
